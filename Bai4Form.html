@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <h2>Basic Info</h2>
+        <hr>
+        <table>
+            <tr>
+                <td>Employee ID</td>
+                <t><input type="text" name="employee_id" value="9" readonly /></t>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="last_name" value="Dodsworth" /></td>
+            </tr>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="first_name" value="Anne" /></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="Male" /> Male
+                    <input type="radio" name="gender" value="Female" checked /> Female
+                    <input type="radio" name="gender" value="XXX" /> XXX
+                    <input type="radio" name="gender" value="ZZZ" /> ZZZ
+                </td>
+            </tr>
+            <tr>
+                <td>Title</td>
+                <td><input type="text" name="title" value="Sales Representative" /></td>
+            </tr>
+            <tr>
+                <td>Suffix</td>
+                <td><input type="text" name="suffix" value="Ms." /></td>
+            </tr>
+            <tr>
+                <td>Birth Date</td>
+                <td><input type="datetime-local" name="birth_date" value="1969-07-02T00:00:00" /></td>
+            </tr>
+            <tr>
+                <td>Hire Date</td>
+                <td><input type="datetime-local" name="hire_date" value="1994-11-15T00:00:00" /></td>
+            </tr>
+            <tr>
+                <td>SSN</td>
+                <td><input type="text" name="ssn" value="" /></td>
+            </tr>
+            <tr>
+                <td>Reports To</td>
+                <td><input type="text" name="reports_to" value="Buchanan" /></td>
+            </tr>
+        </table>
+
+        <h2>Contact Info</h2>
+        <hr>
+        <table>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" value="name@example.com" /></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><input type="text" name="address" value="7 Houndstooth Rd." /></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type="text" name="city" value="London" /></td>
+            </tr>
+            <tr>
+                <td>Region</td>
+                <td><input type="text" name="region" value="" /></td>
+            </tr>
+            <tr>
+                <td>Postal Code</td>
+                <td><input type="text" name="postal_code" value="WG2 7LT" /></td>
+            </tr>
+            <tr>
+                <td>Country</td>
+<td><input type="text" name="country" value="Russian Federation" /></td>
+            </tr>
+            <tr>
+                <td>US Home Phone</td>
+                <td><input type="tel" name="home_phone" value="(234)234-2342" /></td>
+            </tr>
+            <tr>
+                <td>Photo</td>
+                <td><input type="file" name="photo" /></td>
+            </tr>
+        </table>
+
+        <h2>Optional Info</h2>
+        <hr>
+        <table>
+            <tr>
+                <td>Notes</td>
+                <td><textarea name="notes">Anne has a BA degree in English from St. Lawrence College. She is fluent in French and German.</textarea></td>
+            </tr>
+            <tr>
+                <td>Preferred Shift</td>
+                <td>
+                    <input type="checkbox" name="preferred_shift" value="Regular" /> Regular
+                    <input type="checkbox" name="preferred_shift" value="Gravy Yard" checked /> Gravy Yard
+                </td>
+            </tr>
+            <tr>
+                <td>Active?</td>
+                <td><input type="checkbox" name="active" checked /></td>
+            </tr>
+            <tr>
+                <td>Are you human?</td>
+                <td><input type="text" name="captcha" placeholder="TIDAWO" /></td>
+            </tr>
+        </table>
+
+        <button type="submit">Submit</button><button type="button">Cancel</button>
+    </form>
+</body>
+</html>
